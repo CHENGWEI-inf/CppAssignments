@@ -47,8 +47,6 @@ What's more, the program support counting times for measuring performance.  And 
 
 
 
-
-
 #### Part 2. Result
 
 ###### 2.1 Result and Performance
@@ -61,3 +59,13 @@ The performance of the method is measured and shown in the following screen shot
 
 ![result2](E:\git\Github_Clone\CHENGWEI-inf\CppAssignments\assignment3\files\result2.png)
 
+
+
+#### Part 3. Difficulties & Solutions, or others
+
+###### 3.1 Difficulties
+
+- Large memory allocate. Solution : compile with amd64
+- Concurrent programming
+- Precision lost
+- BLAS compile
