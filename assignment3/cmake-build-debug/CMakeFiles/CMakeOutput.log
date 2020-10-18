@@ -1,0 +1,97 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Visual Studio/VS_setup/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27024.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.16.27024.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "E:/cppWork/Assignments/assignment3/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Visual Studio/VS_setup/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27024.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.16.27024.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/cppWork/Assignments/assignment3/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/cppWork/Assignments/assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_7e6b8\fast && 	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_7e6b8.dir\build.make /nologo -L                  CMakeFiles\cmTC_7e6b8.dir\build
+Building C object CMakeFiles/cmTC_7e6b8.dir/testCCompiler.c.obj
+	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe" @C:\Users\AirohpuE\AppData\Local\Temp\nmF80C.tmp
+testCCompiler.c
+Linking C executable cmTC_7e6b8.exe
+	"D:\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7e6b8.dir --rc="D:\Windows Kits\10\bin\10.0.17763.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.17763.0\x64\mt.exe" --manifests  -- "D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_7e6b8.dir\objects1.rsp @C:\Users\AirohpuE\AppData\Local\Temp\nmFB2A.tmp
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/cppWork/Assignments/assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_da074\fast && 	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_da074.dir\build.make /nologo -L                  CMakeFiles\cmTC_da074.dir\build
+Building C object CMakeFiles/cmTC_da074.dir/CMakeCCompilerABI.c.obj
+	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe" @C:\Users\AirohpuE\AppData\Local\Temp\nmFED2.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_da074.exe
+	"D:\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_da074.dir --rc="D:\Windows Kits\10\bin\10.0.17763.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.17763.0\x64\mt.exe" --manifests  -- "D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_da074.dir\objects1.rsp @C:\Users\AirohpuE\AppData\Local\Temp\nmFF41.tmp
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/cppWork/Assignments/assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_12b4e\fast && 	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_12b4e.dir\build.make /nologo -L                  CMakeFiles\cmTC_12b4e.dir\build
+Building CXX object CMakeFiles/cmTC_12b4e.dir/testCXXCompiler.cxx.obj
+	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe" @C:\Users\AirohpuE\AppData\Local\Temp\nm24D.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_12b4e.exe
+	"D:\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_12b4e.dir --rc="D:\Windows Kits\10\bin\10.0.17763.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.17763.0\x64\mt.exe" --manifests  -- "D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_12b4e.dir\objects1.rsp @C:\Users\AirohpuE\AppData\Local\Temp\nm2DB.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/cppWork/Assignments/assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_18bcb\fast && 	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_18bcb.dir\build.make /nologo -L                  CMakeFiles\cmTC_18bcb.dir\build
+Building CXX object CMakeFiles/cmTC_18bcb.dir/CMakeCXXCompilerABI.cpp.obj
+	"D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe" @C:\Users\AirohpuE\AppData\Local\Temp\nm8E5.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_18bcb.exe
+	"D:\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_18bcb.dir --rc="D:\Windows Kits\10\bin\10.0.17763.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.17763.0\x64\mt.exe" --manifests  -- "D:\Visual Studio\VS_setup\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_18bcb.dir\objects1.rsp @C:\Users\AirohpuE\AppData\Local\Temp\nm963.tmp
+
+
+
