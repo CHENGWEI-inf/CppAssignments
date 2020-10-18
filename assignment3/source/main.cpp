@@ -1,5 +1,6 @@
 #include <iostream>
 #include <chrono>
+#include <cblas.h>
 #include "..\head\InputReader.h"
 #include "..\head\plainDotProduct.h"
 #include "..\head\concurrentDotProduct.h"
@@ -32,6 +33,13 @@ int main() {
         double c_time_duration_ms = chrono::duration<double,micro>(t2_c - t1_c).count();
         c_time_duration_ms = c_time_duration_ms / 8; // 8 thread avg time
         cout << "the time consuming of concurrent method is: " << c_time_duration_ms << " ms" << endl;
+
+        //test openblas product time
+        auto t1_b = chrono::steady_clock::now();
+        float* res = cblas_sdot(1, reinterpret_cast<const float *>(v1), 1, reinterpret_cast<const float *>(v2));
+        auto t2_b = chrono::steady_clock::now();
+        double b_time_duration_ms = chrono::duration<double,micro>(t2_b - t1_b).count();
+        cout << "the time consuming of BLAS is: " << b_time_duration_ms /20 << " ms" << endl;
 
         delete v1;
         delete v2;
