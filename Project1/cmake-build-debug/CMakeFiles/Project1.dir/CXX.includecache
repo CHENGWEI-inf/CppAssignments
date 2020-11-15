@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/cppWork/Assignments/Project1/head/advancedMatrixProduct.h
+matrix.h
+E:/cppWork/Assignments/Project1/head/matrix.h
+
+E:/cppWork/Assignments/Project1/head/generateRandomMatrix.h
+../head/matrix.h
+E:/cppWork/Assignments/Project1/head/matrix.h
+random
+-
+
+E:/cppWork/Assignments/Project1/head/matrix.h
+iostream
+-
+
+E:/cppWork/Assignments/Project1/head/plainMatrixProduct.h
+../head/matrix.h
+E:/cppWork/Assignments/Project1/head/matrix.h
+
+E:/cppWork/Assignments/Project1/head/strassen.h
+../head/matrix.h
+E:/cppWork/Assignments/Project1/head/matrix.h
+../head/advancedMatrixProduct.h
+E:/cppWork/Assignments/Project1/head/advancedMatrixProduct.h
+
+E:/cppWork/Assignments/Project1/main.cpp
+iostream
+-
+chrono
+-
+head/generateRandomMatrix.h
+E:/cppWork/Assignments/Project1/head/generateRandomMatrix.h
+head/plainMatrixProduct.h
+E:/cppWork/Assignments/Project1/head/plainMatrixProduct.h
+head/advancedMatrixProduct.h
+E:/cppWork/Assignments/Project1/head/advancedMatrixProduct.h
+head/strassen.h
+E:/cppWork/Assignments/Project1/head/strassen.h
+
