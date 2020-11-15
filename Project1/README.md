@@ -12,6 +12,8 @@
 
 - The original code is attached in the following GitHub link：
 
+https://github.com/CHENGWEI-inf/CppAssignments/tree/master/Project1
+
 
 
 ### Part 2. Description
