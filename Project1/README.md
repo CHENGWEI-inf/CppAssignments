@@ -62,7 +62,7 @@ Reference:
 
 ​	Notice the time complexity of Matrix addition is O(N^2) while multiplication is O(N^3). Thus, by applying a divide and conquer method showing by the figure below, Strassen is able to reduce the time complexity of matrix multiplication to O(N^(log7)) ( before is O(N^log(8)) ).
 
-![strassen](.\figs\strassen.png)
+![strassen](../Project1/figs/strassen.png)
 
 ​	Implementation details are in "`strassen()`"
 
@@ -70,7 +70,7 @@ Reference:
 
 ​	The matrix production is highly parallelizable if we just simply do some alternation by separate the original matrix to different sub-matrixes. It is easy to prove by recursion that the result of sub matrix multiplication can be reconstruct to the big matrix multiplication. The following figure shows how we divide the matrix:
 
-![divide](.\figs\divide.png)
+![divide](../Project1/figs/divide.png)
 
 ​	In this way, we can divide the matrix multiplication into 4 parallel procedure.
 
@@ -146,7 +146,7 @@ The program follows the following procedure:
 
 ###### Test 1: Random input
 
-![robust1](.\figs\robust1.png)
+![robust1](../Project1/figs/robust1.png)
 
 
 
@@ -158,7 +158,7 @@ The program follows the following procedure:
 
 ###### Test 3: Bad input integer
 
-![robust2](.\figs\robust2.png) 
+![robust2](../Project1/figs/robust2.png) 
 
 
 
@@ -169,7 +169,7 @@ The program follows the following procedure:
 - ​	In this test, we test by given an matrix, with **different shape**, **odd height and odd width**.
 - ​	Verified the separate matrix (in **concurrent method**) works well on any circumstance 
 
-![valid1](.\figs\valid1.png)
+![valid1](../Project1/figs/valid1.png)
 
 
 
@@ -177,9 +177,9 @@ The program follows the following procedure:
 
 - In this test, the random generated matrix is square matrix, so that **Strassen** algorithm is tested.
 
-  ![valid2](.\figs\valid2.png)
+  ![valid2](../Project1/figs/valid2.png)
 
-![valid3](.\figs\valid3.png)
+![valid3](../Project1/figs/valid3.png)
 
 
 
@@ -189,13 +189,13 @@ The program follows the following procedure:
 
 - ​	The optimized result is 10 times faster than the plain method
 
-![metric1](.\figs\metric1.png)
+![metric1](../Project1/figs/metric1.png)
 
 ###### Test 2: Performance on 100m matrix
 
 - The optimized result is roughly 15 times faster than plain method
 
-  ![metric2](.\figs\metric2.png)
+  ![metric2](../Project1/figs/metric2.png)
 
 ###### Analysis:
 
