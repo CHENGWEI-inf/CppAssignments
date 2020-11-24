@@ -152,7 +152,7 @@ The program follows the following procedure:
 
 ###### Test 2: Bad size for matrix multiplication
 
-![robust2](.\figs\robust2.png)
+![robust2](../Project1/figs/robust2.png)
 
 
 
