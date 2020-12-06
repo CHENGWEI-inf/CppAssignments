@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/cppWork/Assignments/Assignment4/head/Matrix.h
+iostream
+-
+
+E:/cppWork/Assignments/Assignment4/main.cpp
+iostream
+-
+head/Matrix.h
+E:/cppWork/Assignments/Assignment4/head/Matrix.h
+
