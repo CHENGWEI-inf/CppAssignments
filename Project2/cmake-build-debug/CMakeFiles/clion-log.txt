@@ -1,0 +1,13 @@
+"D:\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\cppWork\Assignments\Project2
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: vc15
+-- OpenCV STATIC: OFF
+-- Found OpenCV 4.5.1 in E:/openCV/opencv/build/x64/vc15/lib
+-- You might need to add E:\openCV\opencv\build\x64\vc15\bin to your PATH to be able to run your applications.
+-- Found OpenMP_C: -openmp  
+-- Found OpenMP_CXX: -openmp  
+-- Found OpenMP: TRUE   
+OPENMP FOUND
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/cppWork/Assignments/Project2/cmake-build-debug

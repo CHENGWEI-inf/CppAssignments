@@ -1,0 +1,7 @@
+#ifndef PROJECT2_ACTIVATEFUNCTION_H
+#define PROJECT2_ACTIVATEFUNCTION_H
+
+void ReLU(float * tensor, int size);
+
+
+#endif //PROJECT2_ACTIVATEFUNCTION_H
